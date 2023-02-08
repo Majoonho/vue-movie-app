@@ -4,7 +4,7 @@
         <a 
         href="https://github.com/Majoonho"
         target="_blank">
-        (c){{ new Date().getFullYear() }} HEROPY
+        (c){{ new Date().getFullYear() }} Majoonho
         </a>
 
     </footer>
