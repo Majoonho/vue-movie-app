@@ -1,0 +1,21 @@
+
+// Default variable overrides
+$primary: #FDC000;
+$container-max-widths: (
+    sm: 540px,
+    md: 704px,
+    lg: 924px,
+    xl: 1140px,
+    xxl: 1364px
+
+);
+
+// 버튼 primary 의 색을 재정의 (기본은 파랑)
+// Required bootstrap > doc > custom > sass > variable defaults
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+
+// bootstrap 가져오기
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
