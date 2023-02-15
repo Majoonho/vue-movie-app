@@ -1,6 +1,7 @@
 {
   "name": "webpack-basic",
   "version": "1.0.0",
+  
   "description": "",
   "__browserslist": "이 프로젝트가 지원하는 대상 브라우저를 지정 for Autoprefixer!",
   "browserslist": [
@@ -9,6 +10,7 @@
   ],
   "scripts": {
     "dev": "webpack-dev-server --mode development",
+    "dev:netlify": "netlify dev",
     "build": "webpack --mode production",
     "lint": "eslint --fix --ext .js,.vue"
   },
@@ -29,6 +31,7 @@
     "eslint-plugin-vue": "^7.8.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.1",
+    "netlify-cli": "^3.17.0",
     "postcss": "^8.2.8",
     "postcss-loader": "^5.2.0",
     "sass": "^1.32.8",
