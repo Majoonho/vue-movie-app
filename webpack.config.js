@@ -81,7 +81,9 @@ module.exports = {
       ]
     }),
     new VueLoaderPlugin(),
-    new Dotenv()
+    new Dotenv({
+      systemvars: true
+    })
   ],
 
   // 개발 서버 옵션
